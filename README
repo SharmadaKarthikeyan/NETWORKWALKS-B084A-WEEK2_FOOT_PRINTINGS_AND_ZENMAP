@@ -1,0 +1,107 @@
+# Network Footprinting and Network Scanning
+
+## Week 2 – Network Walks Internship Project
+
+### Project Overview
+
+This project was completed as part of the Week 2 internship activities at Network Walks. It focuses on two important cybersecurity concepts: Website Footprinting and Network Scanning.
+
+The project demonstrates the use of Kali Linux tools for collecting publicly available website information and Zenmap for basic network host discovery.
+
+## Project Modules
+
+### Module 1: Website Footprinting
+
+**Target Domain:** `networkwalks.com`
+
+**Operating System:** Kali Linux
+
+The following tools were used:
+
+| Tool | Purpose |
+|---|---|
+| WHOIS | Collect domain registration information |
+| WhatWeb | Identify website technologies |
+| Nslookup | Retrieve DNS information |
+| cURL | Examine HTTP response headers |
+| WAFW00F | Detect Web Application Firewall |
+| DNSRecon | Enumerate DNS records |
+
+### Module 2: Network Scanning with Zenmap
+
+**Operating System:** Windows
+
+**Tool:** Zenmap (Nmap)
+
+A Ping scan was performed to identify an active host using the target IP address from the practical session.
+
+**Scan Configuration:**
+- Scan Profile: Ping Scan
+- Target: `192.168.56.1`
+- Command: `nmap -sn 192.168.56.1`
+
+**Scan Result:**
+- IP addresses scanned: 1
+- Live hosts identified: 1
+- Scan duration: 1.25 seconds
+
+## Objectives
+
+- Understand the fundamentals of website footprinting.
+- Collect publicly available domain information.
+- Identify website technologies and DNS records.
+- Examine HTTP response headers.
+- Understand Web Application Firewall detection.
+- Learn basic network scanning using Zenmap.
+- Identify active hosts through Ping scanning.
+- Document practical results and observations.
+
+## Technologies and Tools Used
+
+- Kali Linux
+- Windows
+- Oracle VirtualBox
+- WHOIS
+- WhatWeb
+- Nslookup
+- cURL
+- WAFW00F
+- DNSRecon
+- Zenmap (Nmap)
+
+## Project Structure
+
+```text
+Network-Footprinting-and-Scanning/
+│
+├── README.md
+│
+├── Footprinting/
+│   ├── screenshots/
+│   │   ├── 01_WHOIS.png
+│   │   ├── 02_WHATWEB.png
+│   │   ├── 03_Nslookup.png
+│   │   ├── 04_cURL.png
+│   │   ├── 05_WAFW00F.png
+│   │   └── 06_DNSRecon.png
+│   │
+│   └── results/
+│       ├── whois.txt
+│       ├── whatweb.txt
+│       ├── nslookup.txt
+│       ├── curl.txt
+│       ├── wafw00f.txt
+│       └── dnsrecon.txt
+│
+└── Network-Scanning/
+    └── screenshots/
+        ├── 01_Zenmap_Ping_Scan.png
+        ├── 02_Zenmap_Topology.png
+        └── 03_Windows_IP_Configuration.png
+```
+
+## Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Website information
